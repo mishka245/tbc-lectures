@@ -14,5 +14,5 @@ def my_func(lst, number):
 try:
     result = my_func([2, 4, 6, 8], 0)
     print(result)
-except AssertationError:
+except AssertionError as e:
     print("Can't call my_func")
