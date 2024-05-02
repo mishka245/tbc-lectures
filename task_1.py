@@ -1,0 +1,2 @@
+def opala():
+    return "Opala"
